@@ -1,4 +1,4 @@
-#include"libft"
+#include"libft.h"
 int	ft_isascii(n)
 {
 	if (n >= 0 && n <= 127)
