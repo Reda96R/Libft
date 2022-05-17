@@ -10,12 +10,14 @@ char	*ft_strrchr(const char *s, int c)
 		i++;
 	if (c == '0')
 		return (p = &s[i]);
-        while(i >= 0)
+        while(i > 0)
         {
                 if (c == s[i])
 			return (p = &s[i]);
 		i--;
         }
+	if (s[0] == c)
+		return (p = &s[0]);
         return (0);
 
 }
