@@ -12,11 +12,13 @@ typedef struct	s_list
 }
 
 int	ft_atoi(const char *str);
+void	ft_bzero(void	*s, size_t	n);
 int	ft_isalnum(int n);
 int	ft_isalpha(int n);
 int	ft_isascii(int n);
 int	ft_isdigit(int n);
 int	ft_isprint(int n);
+void	ft_memset(void	*b, int	n, size_t	len);
 void	ft_putchar(char c);
 void	ft_putchar_fd(char c, int fd);
 void	ft_putendl(char *s);
