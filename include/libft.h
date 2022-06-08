@@ -18,6 +18,7 @@ int	ft_isalpha(int n);
 int	ft_isascii(int n);
 int	ft_isdigit(int n);
 int	ft_isprint(int n);
+void	ft_memcpy(void *dest, void *src, size_t n);
 void	ft_memset(void	*b, int	n, size_t	len);
 void	ft_putchar(char c);
 void	ft_putchar_fd(char c, int fd);
